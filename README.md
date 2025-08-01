@@ -1,4 +1,4 @@
-# n8n-nodes-dingtalk
+# n8n-nodes-dingdingtalk
 
 [![NPM badge](https://img.shields.io/npm/v/n8n-nodes-dingtalk.svg)](https://www.npmjs.com/package/n8n-nodes-dingtalk)
 
@@ -60,7 +60,7 @@ $ npm install ../../git/n8n-nodes-dingtalk
 ## 示例workflow
 
 导入demo
-[test/dingding-workflow-robot.json](https://github.com/ruanjf/n8n-nodes-dingtalk/raw/main/test/dingding-workflow-robot.json)
+[test/dingding-workflow-robot.json](./test/dingding-workflow-robot.json)
 
 ## License
 
