@@ -13,10 +13,10 @@ import RobotClient, * as $RobotClient from '@alicloud/dingtalk/dist/robot_1_0/cl
 import * as OpenApi from '@alicloud/openapi-client';
 import * as Util from '@alicloud/tea-util';
 
-export class DingTalk implements INodeType {
+export class DingDingTalk implements INodeType {
 	description: INodeTypeDescription = {
 		displayName: 'DingDing',
-		name: 'DingTalk',
+		name: 'DingDingTalk',
 		icon: 'file:dingtalk.svg',
 		group: ['input'],
 		version: 1,
@@ -38,7 +38,7 @@ export class DingTalk implements INodeType {
 				},
 			},
 			{
-				name: 'dingTalkCustomRobotApi',
+				name: 'dingdingTalkCustomRobotApi',
 				required: true,
 				displayOptions: {
 					show: {
@@ -176,7 +176,7 @@ export class DingTalk implements INodeType {
 
 		const type = this.getNodeParameter('type', 0);
 		if (type === 'customRobot') {
-			const credentials = await this.getCredentials('dingTalkCustomRobot');
+			const credentials = await this.getCredentials('dingdingTalkCustomRobot');
 
 			const timestamp = Date.parse(new Date().toString());
 			const stringToSign = `${timestamp}\n${credentials.webhookSign}`;

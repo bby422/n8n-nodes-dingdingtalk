@@ -19,10 +19,10 @@ import fs from 'fs';
 import path from 'path';
 import os from 'os';
 
-export class DingTalkRobot implements INodeType {
+export class DingDingTalkRobot implements INodeType {
 	description: INodeTypeDescription = {
 		displayName: '钉钉机器人2',
-		name: 'dingTalkRobot2',
+		name: 'dingdingTalkRobot2',
 		icon: 'file:dingtalk.svg',
 		group: ['input'],
 		version: 1,
@@ -35,7 +35,7 @@ export class DingTalkRobot implements INodeType {
 		outputs: ['main'],
 		credentials: [
 			{
-				name: 'dingTalkCustomRobotApi',
+				name: 'dingdingTalkCustomRobotApi',
 				required: true,
 				displayOptions: {
 					show: {
@@ -44,7 +44,7 @@ export class DingTalkRobot implements INodeType {
 				},
 			},
 			{
-				name: 'dingTalkCompanyApi',
+				name: 'dingdingTalkCompanyApi',
 				required: true,
 				displayOptions: {
 					show: {
@@ -962,7 +962,7 @@ export class DingTalkRobot implements INodeType {
 		const type = this.getNodeParameter('type', 0);
 		const items = this.getInputData();
 		if (type === 'customRobot') {
-			const credentials = await this.getCredentials('dingTalkCustomRobotApi');
+			const credentials = await this.getCredentials('dingdingTalkCustomRobotApi');
 
 			const timestamp = Date.parse(new Date().toString());
 			const stringToSign = `${timestamp}\n${credentials.webhookSign}`;
@@ -1072,7 +1072,7 @@ export class DingTalkRobot implements INodeType {
 
 			return this.prepareOutputData(result);
 		} else if (type === 'companyInternalRobot') {
-			const credentials = await this.getCredentials('dingTalkCompanyApi');
+			const credentials = await this.getCredentials('dingdingTalkCompanyApi');
 			const config = new $OpenApi.Config({});
 			config.protocol = credentials.protocol as string;
 			config.regionId = credentials.regionId as string;

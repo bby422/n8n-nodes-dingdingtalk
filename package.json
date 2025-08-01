@@ -1,7 +1,7 @@
 {
   "name": "n8n-nodes-dingdingtalk",
-  "version": "0.0.12",
-  "description": "",
+  "version": "0.0.15",
+  "description": "钉钉机器人",
   "keywords": [
     "n8n-community-node-package",
     "钉钉",
@@ -11,12 +11,12 @@
   "license": "MIT",
   "homepage": "",
   "author": {
-    "name": "ruanjf",
-    "email": "runjf@qq.com"
+    "name": "bby",
+    "email": "love.id@qq.com"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ruanjf/n8n-nodes-dingtalk.git"
+    "url": "https://github.com/bby422/n8n-nodes-dingdingtalk"
   },
   "main": "index.js",
   "scripts": {

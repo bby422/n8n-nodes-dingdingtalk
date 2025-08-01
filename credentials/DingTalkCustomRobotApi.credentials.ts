@@ -1,8 +1,8 @@
 import { ICredentialType, INodeProperties } from 'n8n-workflow';
 
-export class DingTalkCustomRobotApi implements ICredentialType {
-	name = 'dingTalkCustomRobotApi';
-	displayName = 'DingTalkCustomRobot API';
+export class DingDingTalkCustomRobotApi implements ICredentialType {
+	name = 'dingdingTalkCustomRobotApi';
+	displayName = 'DingDingTalkCustomRobot API';
 	// documentationUrl = '';
 	properties: INodeProperties[] = [
 		{

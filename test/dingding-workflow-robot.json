@@ -34,16 +34,16 @@
       },
       "id": "1941ce7b-fea9-4d43-a29c-e690a4e18b99",
       "name": "钉钉机器人",
-      "type": "n8n-nodes-dingtalk.dingTalkRobot",
+      "type": "n8n-nodes-dingtalk.dingdingTalkRobot",
       "typeVersion": 1,
       "position": [
         -700,
         800
       ],
       "credentials": {
-        "dingTalkCustomRobotApi": {
+        "dingdingTalkCustomRobotApi": {
           "id": "4",
-          "name": "DingTalkCustomRobot account 2"
+          "name": "dingdingTalkCustomRobot account 2"
         }
       }
     },
@@ -56,16 +56,16 @@
       },
       "id": "1ab6986b-50d9-4784-9237-7eeba1d4fae4",
       "name": "钉钉机器人1",
-      "type": "n8n-nodes-dingtalk.dingTalkRobot",
+      "type": "n8n-nodes-dingtalk.dingdingTalkRobot",
       "typeVersion": 1,
       "position": [
         -460,
         800
       ],
       "credentials": {
-        "dingTalkCustomRobotApi": {
+        "dingdingTalkCustomRobotApi": {
           "id": "4",
-          "name": "DingTalkCustomRobot account 2"
+          "name": "dingdingTalkCustomRobot account 2"
         }
       }
     },
@@ -77,16 +77,16 @@
       },
       "id": "40cf0989-902d-41ff-a5cc-d4b90f91d3ba",
       "name": "钉钉机器人2",
-      "type": "n8n-nodes-dingtalk.dingTalkRobot",
+      "type": "n8n-nodes-dingtalk.dingdingTalkRobot",
       "typeVersion": 1,
       "position": [
         -220,
         800
       ],
       "credentials": {
-        "dingTalkCustomRobotApi": {
+        "dingdingTalkCustomRobotApi": {
           "id": "4",
-          "name": "DingTalkCustomRobot account 2"
+          "name": "dingdingTalkCustomRobot account 2"
         }
       }
     },
@@ -101,16 +101,16 @@
       },
       "id": "626ea602-8bb2-49c0-9c62-3f9dac6dccbb",
       "name": "钉钉机器人3",
-      "type": "n8n-nodes-dingtalk.dingTalkRobot",
+      "type": "n8n-nodes-dingtalk.dingdingTalkRobot",
       "typeVersion": 1,
       "position": [
         -700,
         980
       ],
       "credentials": {
-        "dingTalkCustomRobotApi": {
+        "dingdingTalkCustomRobotApi": {
           "id": "4",
-          "name": "DingTalkCustomRobot account 2"
+          "name": "dingdingTalkCustomRobot account 2"
         }
       }
     },
@@ -136,16 +136,16 @@
       },
       "id": "a94a0286-3acb-4216-bcdf-6722296d93f5",
       "name": "钉钉机器人4",
-      "type": "n8n-nodes-dingtalk.dingTalkRobot",
+      "type": "n8n-nodes-dingtalk.dingdingTalkRobot",
       "typeVersion": 1,
       "position": [
         -460,
         980
       ],
       "credentials": {
-        "dingTalkCustomRobotApi": {
+        "dingdingTalkCustomRobotApi": {
           "id": "4",
-          "name": "DingTalkCustomRobot account 2"
+          "name": "dingdingTalkCustomRobot account 2"
         }
       }
     },
@@ -169,16 +169,16 @@
       },
       "id": "c6655f5d-c02e-4b37-8811-a87fe4d10da6",
       "name": "钉钉机器人5",
-      "type": "n8n-nodes-dingtalk.dingTalkRobot",
+      "type": "n8n-nodes-dingtalk.dingdingTalkRobot",
       "typeVersion": 1,
       "position": [
         -220,
         980
       ],
       "credentials": {
-        "dingTalkCustomRobotApi": {
+        "dingdingTalkCustomRobotApi": {
           "id": "4",
-          "name": "DingTalkCustomRobot account 2"
+          "name": "dingdingTalkCustomRobot account 2"
         }
       }
     },
@@ -189,16 +189,16 @@
       },
       "id": "44d9ebb5-af47-4af0-a32f-6a7420ee43e6",
       "name": "钉钉机器人6",
-      "type": "n8n-nodes-dingtalk.dingTalkRobot",
+      "type": "n8n-nodes-dingtalk.dingdingTalkRobot",
       "typeVersion": 1,
       "position": [
         -220,
         640
       ],
       "credentials": {
-        "dingTalkCustomRobotApi": {
+        "dingdingTalkCustomRobotApi": {
           "id": "4",
-          "name": "DingTalkCustomRobot account 2"
+          "name": "dingdingTalkCustomRobot account 2"
         }
       }
     }
