@@ -21,8 +21,8 @@ import os from 'os';
 
 export class DingTalkRobot implements INodeType {
 	description: INodeTypeDescription = {
-		displayName: '钉钉机器人',
-		name: 'dingTalkRobot',
+		displayName: '钉钉机器人2',
+		name: 'dingTalkRobot2',
 		icon: 'file:dingtalk.svg',
 		group: ['input'],
 		version: 1,
